@@ -1,4 +1,16 @@
+/*
+6. Construa um programa em C ANSI que leia dois inteiros a e b e
+implemente três funções:
+
+void somar(int *a, int *b, int *res);
+void subtrair(int *a, int *b, int *res);
+void multiplicar(int *a, int *b, int *res);
+
+As funções devem receber as entradas por ponteiro e gravar o resultado
+em *res. Imprima os três resultados no main.
+*/
 #include <stdio.h>
+#include <stdlib.h>
 
 void somar(int *a, int *b, int *res)
 {

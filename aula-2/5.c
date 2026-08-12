@@ -1,3 +1,9 @@
+/*
+5. Construa um programa em C ANSI que leia o raio r e calcule a área
+do círculo em uma função void areaCirculo(float r, float *area) que
+grave o resultado em *area. Use pi = 3.141592 e, no main, imprima
+a área com duas casas decimais.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

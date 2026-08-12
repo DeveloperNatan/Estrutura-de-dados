@@ -1,3 +1,27 @@
+/*
+10. Implemente um programa em C ANSI que leia um nome completo
+armazenado em uma string.
+
+Crie a função:
+
+void primeiraMaiuscula(char *nome);
+
+A função deve receber a string por referência, utilizando um ponteiro,
+e alterar o primeiro caractere de cada palavra para letra maiúscula,
+apenas se esse caractere estiver em letra minúscula.
+
+Considere que as palavras do nome são separadas por espaço. As demais
+letras de cada palavra não devem ser modificadas.
+
+Exemplo:
+
+Entrada:
+manfred heil junior
+
+Saída:
+Manfred Heil Junior
+*/
+
 #include <stdio.h>
 #include <ctype.h>
 

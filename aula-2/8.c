@@ -1,4 +1,14 @@
+/*
+8. Construa um programa em C ANSI que leia três inteiros a, b e c e
+ordene os valores em ordem crescente usando uma função:
+
+void ordenar3(int *a, int *b, int *c);
+
+A função deve realizar as trocas por referência. Depois, imprima os
+valores ordenados no main.
+*/
 #include <stdio.h>
+#include <stdlib.h>
 
 void ordenar3(int *a, int *b, int *c)
 {
