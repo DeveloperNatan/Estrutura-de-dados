@@ -32,7 +32,7 @@ void ImprimirPessoa(struct Pessoa p1)
     printf("Seu nome é %s, você tem %i anos e pesa %.2f kg\n", p1.nome, p1.idade, p1.peso);
 }
 
-int main()
+int main(void)
 {
     struct Pessoa p1 = LerPessoa();
     ImprimirPessoa(p1);

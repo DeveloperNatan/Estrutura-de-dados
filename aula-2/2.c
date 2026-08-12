@@ -3,7 +3,7 @@
 
 struct Animal
 {
-    char raca[50];   
+    char raca[50];
     char cor[50];
     float peso;
     char sexo[50];
@@ -24,7 +24,7 @@ void lerAnimal(struct Animal *a)
     scanf("%f", &a->peso);
 }
 
-void imprimirAnimal(const struct Animal *a)
+void imprimirAnimal(struct Animal *a)
 {
     printf("Ficha do animal\n"
            " Raça: %s | Cor: %s | Peso: %.2f | Sexo: %s\n",
