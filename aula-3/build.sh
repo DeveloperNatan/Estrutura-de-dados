@@ -10,4 +10,11 @@ fi
 
 saida="${arquivo%.c}"
 
-gcc -std=c99 -Wall -Wextra -pedantic "$arquivo" -o "$saida" && ./"$saida"
+gcc -std=c99 -Wall -Wextra -pedantic "$arquivo" -o "$saida" -lm
+
+if [ $? -eq 0 ]; then
+    ./"$saida"
+else
+    echo "Erro na compilação."
+    exit 1
+fi
